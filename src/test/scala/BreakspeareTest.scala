@@ -2,7 +2,7 @@ import org.scalatest.flatspec.AnyFlatSpec
 
 import Breakspeare._
 
-class BreakspearSpec extends AnyFlatSpec {
+class BreakspeareTest extends AnyFlatSpec {
 
   "createFuzzySet" should "work correctly with Double" in {
     val fuzzySet: FuzzySet[Double] = createFuzzySet[Double]((x: Double) => if (x > 0.5) 1.0 else 0.0)
